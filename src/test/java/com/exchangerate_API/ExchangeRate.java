@@ -45,5 +45,4 @@ public class ExchangeRate {
 
         response.then().body("conversion_rates", hasKey("GBP"));
     }
-
 }
